@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "input_sha256": "eb1f25ce5bbaf20babe3fb0c4913b59ca332fb8588e3e581b09db8e82e16cc7f",
+  "retained_dataset": false,
+  "compared_files": [],
+  "output": "runs/assembly-smoke-complete/analysis",
+  "generated_utc": "2026-10-11T15:14:02.147079+00:00"
+}

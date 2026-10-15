@@ -1,0 +1,20 @@
+{
+  "created_utc": "2026-10-11T15:10:36.458351+00:00",
+  "python": "3.13.5",
+  "command": [
+    "/opt/pyvenv/bin/python",
+    "/mnt/data/mobishard/prototype/run_experiments.py",
+    "--extended",
+    "--repetitions",
+    "2",
+    "--out",
+    "/mnt/data/mobishard/runs/assembly-smoke"
+  ],
+  "expected_measured_trials": 88,
+  "expected_submissions": 22528,
+  "output_relative": "runs/assembly-smoke",
+  "scope": "New execution; not the paper retained dataset",
+  "status": "interrupted_by_tool_timeout",
+  "note": "The execution tool ended the first attempt before the 88-trial design completed; this attempt is not validation evidence.",
+  "rows_written": 55
+}

@@ -1,0 +1,10 @@
+{
+  "trials": 880,
+  "requests": 225280,
+  "commits": 77929,
+  "groups": 44,
+  "seed_repetitions": 20,
+  "source_sha256": "ed4f9a21d420795f6b24509f63cdde6b5982493d1180f706820aeb0795f8f5fa",
+  "date": "2026-09-08",
+  "note": "All data are measured local prototype trials. CI unit is a trial, not a request."
+}

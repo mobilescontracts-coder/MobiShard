@@ -1,0 +1,26 @@
+\begin{abstract}
+Mobile smart-contract requests can pass admission checks yet remain unfinished
+when concurrent requests draw on the same budget. Checking each validation
+stage prevents negative balances, but does not protect the allowance needed
+by later stages. We present MobiShard, which atomically reserves each request's
+remaining logical battery and computation costs before shard dispatch. Stage
+charges reduce the reservation, and terminal handling releases any unused
+portion. The design separates request origination, the charged account, and
+execution placement. A budget invariant establishes conditional resource
+feasibility under fixed costs and atomic updates. Selected guards and evidence
+dependencies come from a Coloured Petri Net specification and inform a separate
+implementation. We compare stagewise checking, full-path prechecking,
+reservation, and per-participant serialization in a trusted, single-host
+prototype with six services. The evaluation covers 880 trials and 225,280
+submissions. In computation-limited bursts, reservation completes 80 of 256
+requests per trial, compared with a mean of 72.40 for stagewise checking,
+a 10.5\% increase. Serialization also reaches 80, but permits only one active
+request per participant. In mixed-resource trials, both complete 96 requests;
+reservation reduces mean trial elapsed time from 377.2 to 220.6\,ms. No clear
+timing advantage is established in the main computation-limited comparison.
+Modeled connectivity loss, however, interrupts more admitted requests under
+reservation than under serialization. Reservation thus protects completion
+capacity while allowing concurrent validation, but its runtime benefit depends
+on the workload. These results concern logical budgets and local commitment,
+not measured mobile-energy savings or consensus finality.
+\end{abstract}

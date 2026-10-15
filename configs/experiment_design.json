@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "configuration_source": "prototype/run_experiments.py",
+  "role": "documentation; the preserved runner remains authoritative",
+  "policies": [
+    "stagewise",
+    "precheck",
+    "reserve",
+    "serial"
+  ],
+  "owners": 16,
+  "requests_per_owner": 16,
+  "requests_per_trial": 256,
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "time_unit_ms": 1.0,
+  "deposit": 15,
+  "stage_costs": {
+    "block": [
+      2,
+      3
+    ],
+    "proof": [
+      1,
+      2
+    ],
+    "root": [
+      1,
+      2
+    ]
+  },
+  "cost_components": [
+    "logical_battery",
+    "logical_computation"
+  ],
+  "profiles": {
+    "default": {
+      "wallet": 100,
+      "battery": 100,
+      "computation": 100,
+      "bound": 96
+    },
+    "cpu": {
+      "wallet": 300,
+      "battery": 100,
+      "computation": 35,
+      "bound": 80
+    },
+    "battery": {
+      "wallet": 300,
+      "battery": 20,
+      "computation": 100,
+      "bound": 80
+    },
+    "mixed": {
+      "groups": 4,
+      "owners_per_group": 4,
+      "bound": 96,
+      "group_budgets": [
+        [
+          300,
+          100,
+          100,
+          2
+        ],
+        [
+          300,
+          100,
+          35,
+          2
+        ],
+        [
+          300,
+          20,
+          100,
+          2
+        ],
+        [
+          300,
+          100,
+          100,
+          0
+        ]
+      ]
+    }
+  },
+  "suites": [
+    {
+      "name": "main",
+      "configurations_per_seed": 16,
+      "trials": 320,
+      "concurrency": 16,
+      "arrival": "burst"
+    },
+    {
+      "name": "concurrency",
+      "configurations_per_seed": 16,
+      "trials": 320,
+      "profile": "cpu",
+      "caps": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "cap16_reused_from_main": true
+    },
+    {
+      "name": "arrival",
+      "configurations_per_seed": 4,
+      "trials": 80,
+      "profile": "cpu",
+      "arrival_spacing_ms": 2
+    },
+    {
+      "name": "instrumentation",
+      "configurations_per_seed": 4,
+      "trials": 80,
+      "profile": "cpu",
+      "mode": "full"
+    },
+    {
+      "name": "disconnect",
+      "configurations_per_seed": 4,
+      "trials": 80,
+      "profile": "disconnect",
+      "affected_owners": 4
+    }
+  ],
+  "retained_trials": 880,
+  "retained_submissions": 225280,
+  "retained_commitments": 77929,
+  "retained_gateway_events": 781126,
+  "warmups_per_campaign": 4,
+  "excluded_pilot_trials": 44
+}

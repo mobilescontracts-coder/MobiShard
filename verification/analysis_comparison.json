@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "input_sha256": "ed4f9a21d420795f6b24509f63cdde6b5982493d1180f706820aeb0795f8f5fa",
+  "retained_dataset": true,
+  "compared_files": [
+    "analysis_manifest.json",
+    "concurrency_precheck.csv",
+    "concurrency_reserve.csv",
+    "concurrency_serial.csv",
+    "concurrency_stagewise.csv",
+    "cpu_outcomes.csv",
+    "disconnect_rows.tex",
+    "outcome_rows.tex",
+    "paired_differences.csv",
+    "summary.csv",
+    "timing_rows.tex"
+  ],
+  "output": "build/analysis",
+  "generated_utc": "2026-10-11T15:08:30.720256+00:00"
+}

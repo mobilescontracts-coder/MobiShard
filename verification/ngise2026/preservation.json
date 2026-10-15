@@ -1,0 +1,38 @@
+{
+  "checked_at_utc": "2026-10-11T16:25:02.542298+00:00",
+  "base_tag": "v0.1.0",
+  "original_principal_section_titles": [
+    "Introduction",
+    "Related Work",
+    "Proposed System Architecture",
+    "Results and Discussion",
+    "Conclusion"
+  ],
+  "original_subsection_titles": [
+    "Sharding, Placement, and Transaction Coordination",
+    "Mobile Participation, Edge Resources, and Lightweight Evidence",
+    "Admission, End-to-End Resource Accounting, and Formal Models",
+    "Roles, Resource Ownership, and Assumptions",
+    "Components and End-to-End Flow",
+    "Why a Precheck Is Not a Reservation",
+    "Reservation Rule and Accounting Invariant",
+    "CPN Traceability and Evidence Boundary",
+    "Deployment and Experimental Design",
+    "Metrics and Validation Controls",
+    "Completion Capacity and Partial-Work Loss",
+    "Concurrency, Arrival Patterns, and Serialization",
+    "Runtime Instrumentation and Connectivity Loss",
+    "Interpretation, Limitations, and Deployment Implications"
+  ],
+  "same_principal_titles_and_subsections": true,
+  "additional_section": "Code and Data Policy",
+  "preserved_numbered_equations": 8,
+  "preserved_algorithmic_environments": 1,
+  "tables_retained": 6,
+  "quantitative_row_inputs": "Unchanged, verified by source hashes and regeneration",
+  "description_table_text": "Condensed in position and traceability tables; their objectives remain distinct",
+  "figure_changes": "Editable vector architecture; original PNG retained; two result plots and their numerical CSV inputs unchanged",
+  "mathematical_scope": "Fixed costs, atomic updates, active/expected-stage checks, single charged owner, conditional progress",
+  "new_performance_experiments": 0,
+  "detector_tests": 0
+}

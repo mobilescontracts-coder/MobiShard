@@ -1,0 +1,43 @@
+name: Artifact verification
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  artifact:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v6.1.0
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v6.3.0
+        with:
+          python-version: '3.13.5'
+          cache: pip
+          cache-dependency-path: requirements-analysis.txt
+      - name: Install retained analysis versions
+        run: python -m pip install -r requirements-analysis.txt
+      - name: Recheck retained evidence and tests
+        run: python scripts/run_checks.py
+      - name: Exercise all five suites with two repetitions
+        run: python scripts/run_new_experiments.py --label ci-smoke --repetitions 2
+      - name: Replay new smoke traces
+        run: python scripts/verify_traces.py --input runs/ci-smoke --report runs/ci-smoke/replay.json
+      - name: Analyse new smoke observations separately
+        run: python scripts/rebuild_analysis.py --input runs/ci-smoke/results.csv --out runs/ci-smoke/analysis
+  manuscript:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v6.1.0
+        with:
+          persist-credentials: false
+      - name: Install LaTeX dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends texlive-latex-base texlive-latex-recommended texlive-latex-extra texlive-pictures texlive-science texlive-fonts-recommended
+      - name: Build NGISE CCIS variants and check the page limit
+        run: python3 scripts/build_paper.py

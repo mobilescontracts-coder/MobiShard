@@ -1,0 +1,39 @@
+{
+  "checked_at_utc": "2026-10-11T16:21:26.519187+00:00",
+  "target": "NGISE 2026; Springer CCIS",
+  "format": "Unmodified llncs 2.26 and splncs04; A4; standard 12.2 x 19.3 cm text area.",
+  "publication_status": "Preparation draft; not submitted or accepted by this build.",
+  "author_actions": [
+    "Complete competing-interest declaration",
+    "Review all scientific claims and AI-use disclosure",
+    "Finalize author metadata, artifact hosting and reuse permissions",
+    "Confirm conference stage and conflicting public dates"
+  ],
+  "builds": [
+    {
+      "variant": "review",
+      "status": "passed",
+      "pdf": "build/paper/main.pdf",
+      "pages": 17,
+      "bibliography_items": 30,
+      "issues": [],
+      "bibliography_engine": "bibtex8",
+      "page_limit_source": "https://ngise.org/call-for-papers",
+      "page_count_scope": "Whole PDF, including title, abstract, code/data policy, declarations and references.",
+      "underfull_box_notices": 0
+    },
+    {
+      "variant": "author",
+      "status": "passed",
+      "pdf": "build/paper/main_author.pdf",
+      "pages": 17,
+      "bibliography_items": 30,
+      "issues": [],
+      "bibliography_engine": "bibtex8",
+      "page_limit_source": "https://ngise.org/call-for-papers",
+      "page_count_scope": "Whole PDF, including title, abstract, code/data policy, declarations and references.",
+      "underfull_box_notices": 0
+    }
+  ],
+  "status": "passed"
+}

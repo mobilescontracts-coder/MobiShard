@@ -1,0 +1,273 @@
+{
+  "schema_version": 1,
+  "assembly_date": "2026-10-11T15:05:58.729712+00:00",
+  "source_archives": [
+    {
+      "name": "MobiShard_IEEE_Reproducibility.zip",
+      "sha256": "26c79db88dbc0a1c8ab9d968397776f1bb6bd28e3a45834ccc5060601cd8c18a"
+    },
+    {
+      "name": "MobiShard_Editorial_Revision_LaTeX.zip",
+      "sha256": "3e1f5d80bcd7e27e8902908e70a486d99c60e912e567f7ac5b3b2c43df71541a"
+    }
+  ],
+  "preserved_files": [
+    {
+      "path": "IEEEtran.bst",
+      "sha256": "314f0ece704568faf827011bac498650691b2b5ee06320720830e782416d5a5f",
+      "source_archive": "MobiShard_IEEE_Reproducibility.zip",
+      "source_member": "IEEEtran.bst"
+    },
+    {
+      "path": "IEEEtran.cls",
+      "sha256": "da751920a317ed318b7b5cd7fa585a6cc7d28502d457856382e9be24b10a3bd7",
+      "source_archive": "MobiShard_IEEE_Reproducibility.zip",
+      "source_member": "IEEEtran.cls"
+    },
+    {
+      "path": "figures/MobiShard_Architecture.png",
+      "sha256": "f318e3a908e9f2f29d9adbb3c6b19e5ec38cad80c5567f8cf51082b6f4b23b8f",
+      "source_archive": "MobiShard_Editorial_Revision_LaTeX.zip",
+      "source_member": "figures/MobiShard_Architecture.png"
+    },
+    {
+      "path": "figures/concurrency.tikz",
+      "sha256": "75a385b6eb7b35738477a75745b64b603fb19ba397e8cc9b1a21c92abb06aac3",
+      "source_archive": "MobiShard_IEEE_Reproducibility.zip",
+      "source_member": "figures/concurrency.tikz"
+    },
+    {
+      "path": "figures/outcomes.tikz",
+      "sha256": "afc131d26cb79e4ad0a0daaeffcb96561a826b644ff72b433474cbf2f2aebc82",
+      "source_archive": "MobiShard_IEEE_Reproducibility.zip",
+      "source_member": "figures/outcomes.tikz"
+    },
+    {
+      "path": "model/msc.cpn",
+      "sha256": "f6cc604e1201393bfb720c43769a855ffec59ddc8a5926d3d1836ee843958f4f",
+      "source_archive": "MobiShard_IEEE_Reproducibility.zip",
+      "source_member": "model/msc.cpn"
+    },
+    {
+      "path": "archive/ieee/paper/references_snapshot.bbl",
+      "sha256": "47cf7dcf1ca87c8af381f5fee4c73ccbc03a2b61bdfcc77c624ae286f1ca64a6",
+      "source_archive": "MobiShard_Editorial_Revision_LaTeX.zip",
+      "source_member": "main.bbl",
+      "original_repository_path": "paper/references_snapshot.bbl"
+    },
+    {
+      "path": "archive/ieee/paper/sections.tex",
+      "sha256": "8586697e92f389eed504c786680520d6d6a3e9b4f94c38909d3ad42a5811208c",
+      "source_archive": "MobiShard_Editorial_Revision_LaTeX.zip",
+      "source_member": "MobiShard_Editorial_Revision.tex",
+      "original_repository_path": "paper/sections.tex"
+    },
+    {
+      "path": "prototype/artifact.py",
+      "sha256": "a94cc3f6903e8fef26c834a4eeaba96190cf62512a148fbaec2ddffc3de7fc8d",
+      "source_archive": "MobiShard_IEEE_Reproducibility.zip",
+      "source_member": "prototype/artifact.py"
+    },
+    {
+      "path": "prototype/run_experiments.py",
+      "sha256": "b92d762e8ca7370f93354abe9141a0bd481085935f3822277e69d2eacb5fa9a1",
+      "source_archive": "MobiShard_IEEE_Reproducibility.zip",
+      "source_member": "prototype/run_experiments.py"
+    },
+    {
+      "path": "prototype/runtime.py",
+      "sha256": "f540601bd6c2eb8077729bca4cf780b4e80c80be22d164894a70295b0f153d4e",
+      "source_archive": "MobiShard_IEEE_Reproducibility.zip",
+      "source_member": "prototype/runtime.py"
+    },
+    {
+      "path": "prototype/test_revision.py",
+      "sha256": "f9a229eee34c77602def74f427af3360c07cc9f1d7ef6b0ecddb91fa82bc2aee",
+      "source_archive": "MobiShard_IEEE_Reproducibility.zip",
+      "source_member": "prototype/test_revision.py"
+    },
+    {
+      "path": "prototype/test_runtime.py",
+      "sha256": "e3bc067caf64e9b97e7ce20a0a114d0dccbdd855ec03cbf4abbd1dcaec80c059",
+      "source_archive": "MobiShard_IEEE_Reproducibility.zip",
+      "source_member": "prototype/test_runtime.py"
+    },
+    {
+      "path": "provenance/UPSTREAM_LINEAGE.md",
+      "sha256": "881f14fc96ce8ab394869fb7efc8bd7e2747252b038df5b32c19ef265c248cad",
+      "source_archive": "MobiShard_IEEE_Reproducibility.zip",
+      "source_member": "provenance/SOURCE_LINEAGE.md"
+    },
+    {
+      "path": "archive/ieee/references.bib",
+      "sha256": "246f285b5842ace71ffea638096e0513aed211ca16db563f1bfb6d8315ae27c9",
+      "source_archive": "MobiShard_Editorial_Revision_LaTeX.zip",
+      "source_member": "references.bib",
+      "original_repository_path": "references.bib"
+    },
+    {
+      "path": "requirements-analysis.txt",
+      "sha256": "83be5ad7bdce5768e96d2d941d21a700760193aef1a1f79e856eef8749fdcb91",
+      "source_archive": "MobiShard_IEEE_Reproducibility.zip",
+      "source_member": "requirements-analysis.txt"
+    },
+    {
+      "path": "research/reference_audit.csv",
+      "sha256": "b8e4a2ba700a4364505ca6022b719904a092c252382220d9dfe264e01a06f795",
+      "source_archive": "MobiShard_IEEE_Reproducibility.zip",
+      "source_member": "research/reference_audit.csv"
+    },
+    {
+      "path": "research/reference_records.json",
+      "sha256": "4c6649984fbdb84b3679d9b8eccdf74b1dcef0094863bf1152cbe79e3983b8c2",
+      "source_archive": "MobiShard_IEEE_Reproducibility.zip",
+      "source_member": "research/reference_records.json"
+    },
+    {
+      "path": "results/deployment/environment.json",
+      "sha256": "f8a4a484a3f56561eebf0974205368be85e5516076a636563854e1cd0023c940",
+      "source_archive": "MobiShard_IEEE_Reproducibility.zip",
+      "source_member": "results/deployment/environment.json"
+    },
+    {
+      "path": "results/deployment/results.csv",
+      "sha256": "ed4f9a21d420795f6b24509f63cdde6b5982493d1180f706820aeb0795f8f5fa",
+      "source_archive": "MobiShard_IEEE_Reproducibility.zip",
+      "source_member": "results/deployment/results.csv"
+    },
+    {
+      "path": "results/deployment/traces.jsonl.gz",
+      "sha256": "1940fd331443d07e1383ff3067267b3fe23330d98cb3d0d4ecc7223c4a9a1167",
+      "source_archive": "MobiShard_IEEE_Reproducibility.zip",
+      "source_member": "results/deployment/traces.jsonl.gz"
+    },
+    {
+      "path": "results/deployment/warmup.json",
+      "sha256": "bd34aed5a85217be73d61b98c1c070faae81e0be7e30e1f65893e7be98f71a48",
+      "source_archive": "MobiShard_IEEE_Reproducibility.zip",
+      "source_member": "results/deployment/warmup.json"
+    },
+    {
+      "path": "results/excluded/ccis/results.csv",
+      "sha256": "a7fcfc812c0704ecb7e702e75babb1522c94563232b1662594ef4720af43684d",
+      "source_archive": "MobiShard_IEEE_Reproducibility.zip",
+      "source_member": "provenance/ccis_results_not_used.csv"
+    },
+    {
+      "path": "results/excluded/ccis/runtime.py",
+      "sha256": "d98d66bf3d753ba894512717aeb570c67f030ca8d5c9c633c1b3eb9a20da6a16",
+      "source_archive": "MobiShard_IEEE_Reproducibility.zip",
+      "source_member": "provenance/runtime_ccis.py"
+    },
+    {
+      "path": "results/excluded/pilot/environment.json",
+      "sha256": "0dd681c5b0d6a14b9d91e6471d6e69558b74d28020db48549dad0e89dd9f305e",
+      "source_archive": "MobiShard_IEEE_Reproducibility.zip",
+      "source_member": "results/pilot/environment.json"
+    },
+    {
+      "path": "results/excluded/pilot/results.csv",
+      "sha256": "3984968401d89f1ae139f6f4d4124a3f7fa5bc0695ef884a0d72026d674312b9",
+      "source_archive": "MobiShard_IEEE_Reproducibility.zip",
+      "source_member": "results/pilot/results.csv"
+    },
+    {
+      "path": "results/excluded/pilot/traces.jsonl.gz",
+      "sha256": "261e87fabcae74c0cdd38211db41b645dd1ec234264b2fc5d1e9eeb5a5267689",
+      "source_archive": "MobiShard_IEEE_Reproducibility.zip",
+      "source_member": "results/pilot/traces.jsonl.gz"
+    },
+    {
+      "path": "results/excluded/pilot/warmup.json",
+      "sha256": "6f1af34f8cecced5167abab2a54f542e3716d790d316345914bfe49ccf184f83",
+      "source_archive": "MobiShard_IEEE_Reproducibility.zip",
+      "source_member": "results/pilot/warmup.json"
+    },
+    {
+      "path": "results/paper/analysis_manifest.json",
+      "sha256": "e7a8a8c00d04dfd44eb86e39076b51b4ef8fefa1555bf4341354766ab10b609c",
+      "source_archive": "MobiShard_IEEE_Reproducibility.zip",
+      "source_member": "results/paper/analysis_manifest.json"
+    },
+    {
+      "path": "results/paper/concurrency_precheck.csv",
+      "sha256": "07bcd06b4006009083323081a61250b8eee5b51b604bdad676e9ca9f141c6eaa",
+      "source_archive": "MobiShard_IEEE_Reproducibility.zip",
+      "source_member": "results/paper/concurrency_precheck.csv"
+    },
+    {
+      "path": "results/paper/concurrency_reserve.csv",
+      "sha256": "62207acc5a7117d4e73fa1277c80508606b82cd6f10de7bc87cad1472225871b",
+      "source_archive": "MobiShard_IEEE_Reproducibility.zip",
+      "source_member": "results/paper/concurrency_reserve.csv"
+    },
+    {
+      "path": "results/paper/concurrency_serial.csv",
+      "sha256": "7e0b8167ed3352936f8b53c74b27bd95106cdcbd638a56085eda51bbd8523d85",
+      "source_archive": "MobiShard_IEEE_Reproducibility.zip",
+      "source_member": "results/paper/concurrency_serial.csv"
+    },
+    {
+      "path": "results/paper/concurrency_stagewise.csv",
+      "sha256": "69660768ab67be08dbea536570967aa0b23310be34e7e78eee127d25e03a382b",
+      "source_archive": "MobiShard_IEEE_Reproducibility.zip",
+      "source_member": "results/paper/concurrency_stagewise.csv"
+    },
+    {
+      "path": "results/paper/cpu_outcomes.csv",
+      "sha256": "0c536fce4caa91858f953e39e4b9c445d6a11db49cb1a672f3de969dc078a23d",
+      "source_archive": "MobiShard_IEEE_Reproducibility.zip",
+      "source_member": "results/paper/cpu_outcomes.csv"
+    },
+    {
+      "path": "results/paper/disconnect_rows.tex",
+      "sha256": "dc18b18df9fc4227d6e0d045e15cf83b30b118554506fa5ec2df6bf3a0e2d276",
+      "source_archive": "MobiShard_IEEE_Reproducibility.zip",
+      "source_member": "results/paper/disconnect_rows.tex"
+    },
+    {
+      "path": "results/paper/outcome_rows.tex",
+      "sha256": "41009eb67547467032f6b03d58fe68063829c89ee421de154ab21b32fc9c9a29",
+      "source_archive": "MobiShard_IEEE_Reproducibility.zip",
+      "source_member": "results/paper/outcome_rows.tex"
+    },
+    {
+      "path": "results/paper/paired_differences.csv",
+      "sha256": "fa84108420018c2459b7dbaa3d142589c8e3f0086772ca5f35afa8328df51f8e",
+      "source_archive": "MobiShard_IEEE_Reproducibility.zip",
+      "source_member": "results/paper/paired_differences.csv"
+    },
+    {
+      "path": "results/paper/summary.csv",
+      "sha256": "cbec2046730a8535cba73f82ad677560e0e96322d98acccd18a602a93bdf0c64",
+      "source_archive": "MobiShard_IEEE_Reproducibility.zip",
+      "source_member": "results/paper/summary.csv"
+    },
+    {
+      "path": "results/paper/timing_rows.tex",
+      "sha256": "aa84208bdb260577b7134a1f7e74708ca02ba759b4625b148425734da626c3a1",
+      "source_archive": "MobiShard_IEEE_Reproducibility.zip",
+      "source_member": "results/paper/timing_rows.tex"
+    },
+    {
+      "path": "scripts/analyse_results.py",
+      "sha256": "edbc46e8fd4853ccd524929854e9b641b0bf6b8305bfa51d3f615ccc000fd5a9",
+      "source_archive": "MobiShard_IEEE_Reproducibility.zip",
+      "source_member": "scripts/analyse_results.py"
+    },
+    {
+      "path": "scripts/verify_traces.py",
+      "sha256": "ce3fb00d97a82bb5a53a0e6b390ea83adbbc1166f2aa9de5204af3ee77ccb7ae",
+      "source_archive": "MobiShard_IEEE_Reproducibility.zip",
+      "source_member": "scripts/verify_traces.py"
+    }
+  ],
+  "front_matter_source": "Latest supplied manuscript page 3; body source is the later supplied editorial revision.",
+  "model_original_name": "Mobile-Aware Sharded Smart Contracts(4).cpn",
+  "ngise_revision_note": "Changed manuscript sources are pinned at their archive/ieee/ paths. Scientific code, model, retained observations and numerical analysis are unchanged.",
+  "ngise_revision": {
+    "updated_at_utc": "2026-10-11T16:17:30.047588+00:00",
+    "prior_tag": "v0.1.0",
+    "note": "Scientific files retain their hashes. Prior manuscript and bibliography originals are under archive/ieee; original_repository_path records relocations."
+  }
+}

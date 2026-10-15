@@ -1,0 +1,35 @@
+# Names are taken from the latest supplied manuscript. Review before release.
+cff-version: 1.2.0
+message: "Please cite the MobiShard manuscript and identify the artifact commit used. NGISE 2026 is the preparation target; no acceptance or DOI is claimed."
+type: software
+title: "MobiShard: Lifecycle-Aware Resource Reservation for Mobile Smart-Contract Validation — Research Artifact"
+version: "0.2.0-ngise2026"
+authors:
+  - family-names: Deval
+    given-names: Vipin
+  - family-names: Dwivedi
+    given-names: Vimal
+  - family-names: Norta
+    given-names: Alex
+  - family-names: Draheim
+    given-names: Dirk
+keywords:
+  - mobile smart contracts
+  - resource reservation
+  - admission control
+  - sharding
+  - Coloured Petri Nets
+preferred-citation:
+  type: unpublished
+  title: "MobiShard: Lifecycle-Aware Resource Reservation for Mobile Smart-Contract Validation"
+  authors:
+    - family-names: Deval
+      given-names: Vipin
+    - family-names: Dwivedi
+      given-names: Vimal
+    - family-names: Norta
+      given-names: Alex
+    - family-names: Draheim
+      given-names: Dirk
+  year: 2026
+  notes: "Draft prepared for NGISE 2026 / Springer CCIS; not an accepted proceedings record. Identify the artifact commit used."

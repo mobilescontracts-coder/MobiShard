@@ -1,0 +1,53 @@
+% Editable NGISE layout of the retained service allocation. No new service or
+% consensus mechanism is introduced. Dimensions are in cm; minimum text 7 pt.
+\begin{tikzpicture}[x=1cm,y=1cm,
+  box/.style={draw,rounded corners=1pt,align=center,inner sep=3pt,
+    font=\sffamily\fontsize{7.4}{8.8}\selectfont,minimum height=1.40cm,text width=2.34cm},
+  state/.style={draw,rounded corners=1pt,align=center,inner sep=4pt,
+    font=\sffamily\fontsize{7.4}{8.8}\selectfont},
+  flow/.style={-{Latex[length=1.5mm]},line width=.55pt},
+  control/.style={flow,dashed},
+  outcome/.style={flow,densely dotted},
+  smalltext/.style={font=\fontsize{7}{8.2}\selectfont,align=center}]
+\node[box,minimum height=.82cm] (client) at (1.4,5.5)
+ {\textbf{Participant}\\Request $(r,u,k)$};
+\node[state,text width=6.15cm,minimum height=.82cm] (cpn) at (8.1,5.5)
+ {\textbf{CPN specification}\\Types, guards and costs; design-time input only};
+\node[smalltext,anchor=west] at (3.35,4.55)
+ {Trusted runtime: gateway, four workers and root service};
+\node[box] (gate) at (1.4,3.50)
+ {\textbf{1. Gateway}\\Check and reserve\\Debit; route};
+\node[box] (worker) at (4.46,3.50)
+ {\textbf{2. Shard workers}\\Four block-stage lanes\\Symbolic proofs};
+\node[box] (root) at (7.52,3.50)
+ {\textbf{3. Root policy}\\Check evidence\\Match ID + decision};
+\node[box] (commit) at (10.58,3.50)
+ {\textbf{4. Local commit}\\Accepted candidate\\+ configured delay};
+\draw[flow] (client.south) -- (gate.north);
+\draw[control] (cpn.west) -- (3.05,5.5) -- (3.05,4.6) -- (2.55,4.6) -- (2.55,4.2);
+\draw[flow] (gate.east) -- (worker.west);
+\draw[flow] (worker.east) -- (root.west);
+\draw[flow] (root.east) -- (commit.west);
+\node[state,text width=4.9cm,minimum height=1.5cm] (ledger) at (2.68,.97)
+ {\textbf{Gateway state and candidate factory}\\
+ Wallet $W_u$; balance $\va_u$; total holds $\vH_u$\\
+ Per-request $\vh_x$, stage and status\\
+ Candidates built on worker calls};
+\node[state,text width=5.53cm,minimum height=1.5cm] (settle) at (9.01,.97)
+ {\textbf{Gateway outcome and settlement}\\
+ Committed / blocked / denied\\
+ Release unused hold; no cost/deposit refund\\
+ Return status to participant};
+\draw[control,<->] (gate.south) -- node[smalltext,fill=white,inner sep=1pt,left]
+ {Account\\updates} (1.4,1.78);
+\draw[outcome] (2.35,2.78) -- (2.35,2.39) -- node[smalltext,above,fill=white,inner sep=1pt]
+ {Denied at admission} (6.46,2.39) -- (6.46,1.76);
+\draw[outcome] (worker.south) -- (4.46,2.64) -- (7.7,2.64) -- (7.7,1.76);
+\node[smalltext,fill=white,inner sep=1pt] at (7.95,2.19) {Blocked at a\\handled stage check};
+\draw[outcome] (8.32,2.78) -- (8.32,2.59) -- (8.9,2.59) -- (8.9,1.76);
+\draw[flow] (commit.south) -- node[smalltext,right,fill=white,inner sep=1pt]
+ {Committed} (10.58,1.76);
+\node[smalltext,text width=11.6cm,anchor=north] at (6,-.01)
+ {Workers and root call the gateway for atomic stage checks and charges.\\
+ Solid: processing. Dashed: control. Dotted: handled failure. No consensus committee.};
+\end{tikzpicture}

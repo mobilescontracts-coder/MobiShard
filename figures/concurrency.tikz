@@ -1,0 +1,14 @@
+\begin{tikzpicture}
+\begin{axis}[width=\columnwidth,height=5.8cm,xmode=log,log basis x=2,
+ xtick={1,2,4,8,16},xticklabels={1,2,4,8,16},xmin=.85,xmax=18,ymin=70,ymax=81,
+ xlabel={Maximum in-flight requests per owner},ylabel={Committed requests per trial},
+ tick label style={font=\footnotesize},label style={font=\footnotesize},
+ legend style={font=\scriptsize,at={(.98,.02)},anchor=south east,draw=none},
+ axis x line*=bottom,axis y line*=left]
+\addplot[black,mark=square*,error bars/.cd,y dir=both,y explicit] table[x=cap,y=mean,y error=ci,col sep=comma]{results/paper/concurrency_stagewise.csv};
+\addplot[black,dashed,mark=triangle*,error bars/.cd,y dir=both,y explicit] table[x=cap,y=mean,y error=ci,col sep=comma]{results/paper/concurrency_precheck.csv};
+\addplot[black,thick,mark=o,mark size=3pt] table[x=cap,y=mean,col sep=comma]{results/paper/concurrency_reserve.csv};
+\addplot[black,densely dotted,mark=+,mark size=2pt] table[x=cap,y=mean,col sep=comma]{results/paper/concurrency_serial.csv};
+\legend{Stagewise,Precheck,Reservation,Serial}
+\end{axis}
+\end{tikzpicture}

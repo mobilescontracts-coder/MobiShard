@@ -1,0 +1,44 @@
+{
+  "conference": "NGISE 2026",
+  "prepared_version": "0.2.0-ngise2026",
+  "checked_date": "2026-10-11",
+  "website": "https://ngise.org/",
+  "rules_url": "https://ngise.org/call-for-papers",
+  "series": "Communications in Computer and Information Science (CCIS)",
+  "review": "double blind",
+  "category": "long paper",
+  "camera_ready_page_range": [
+    15,
+    17
+  ],
+  "short_paper_range": [
+    6,
+    8
+  ],
+  "counting_convention": "Whole PDF including references and declarations; the CFP does not explicitly exclude any part.",
+  "class": "llncs",
+  "bibliography_style": "splncs04",
+  "dates": {
+    "homepage": {
+      "submission": "2026-07-30",
+      "acceptance": "2026-10-05",
+      "early_bird": "2026-10-20",
+      "camera_ready": "2026-11-10",
+      "conference": [
+        "2026-10-28",
+        "2026-10-29"
+      ]
+    },
+    "call_for_papers": {
+      "submission": "2026-07-30",
+      "acceptance": "2026-09-18",
+      "camera_ready": "2026-09-30",
+      "registration": "2026-10-10"
+    }
+  },
+  "unresolved": "Dates conflict. Confirm stage, eligibility and any extra-page charge; no extension or acceptance inferred.",
+  "code_data_policy": "Included; public hosting and license not finalized.",
+  "submitted": false,
+  "accepted": false,
+  "remote_updated": false
+}

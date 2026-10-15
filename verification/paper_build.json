@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "compiled_at_utc": "2026-10-11T15:11:27.936632+00:00",
+  "pdf": "build/paper/main.pdf",
+  "bibliography_engine": "bibtex8",
+  "issues": [],
+  "scope": "Build check; not venue compliance or substantive verification."
+}

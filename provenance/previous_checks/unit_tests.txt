@@ -1,0 +1,24 @@
+test_full_scan_detects_inconsistent_hold (test_revision.RevisionTests.test_full_scan_detects_inconsistent_hold) ... ok
+test_modes_preserve_deterministic_accounting (test_revision.RevisionTests.test_modes_preserve_deterministic_accounting) ... ok
+test_serial_precheck_does_not_create_holds (test_revision.RevisionTests.test_serial_precheck_does_not_create_holds) ... ok
+test_different_owners_can_overlap (test_revision.SerialSchedulingTests.test_different_owners_can_overlap) ... ok
+test_one_owner_enters_only_once (test_revision.SerialSchedulingTests.test_one_owner_enters_only_once) ... ok
+test_blocked_releases_unused_hold_not_wallet (test_runtime.TestPrototype.test_blocked_releases_unused_hold_not_wallet) ... ok
+test_commit_requires_root_spend (test_runtime.TestPrototype.test_commit_requires_root_spend) ... ok
+test_concurrent_stage_orders (test_runtime.TestPrototype.test_concurrent_stage_orders) ... ok
+test_default_wallet_capacity (test_runtime.TestPrototype.test_default_wallet_capacity) ... ok
+test_empty_proof_list_is_outside_domain (test_runtime.TestPrototype.test_empty_proof_list_is_outside_domain) ... ok
+test_exact_resource_boundary (test_runtime.TestPrototype.test_exact_resource_boundary) ... ok
+test_offline_denied_before_debit (test_runtime.TestPrototype.test_offline_denied_before_debit) ... ok
+test_precheck_does_not_reserve (test_runtime.TestPrototype.test_precheck_does_not_reserve) ... ok
+test_reserved_cpu_capacity (test_runtime.TestPrototype.test_reserved_cpu_capacity) ... ok
+test_source_costs (test_runtime.TestPrototype.test_source_costs) ... ok
+test_source_hash (test_runtime.TestPrototype.test_source_hash) ... ok
+test_stagewise_checks_wallet_only (test_runtime.TestPrototype.test_stagewise_checks_wallet_only) ... ok
+test_symbolic_coverage_limits_preserved (test_runtime.TestPrototype.test_symbolic_coverage_limits_preserved) ... ok
+test_valid_root_and_mutations (test_runtime.TestPrototype.test_valid_root_and_mutations) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.027s
+
+OK

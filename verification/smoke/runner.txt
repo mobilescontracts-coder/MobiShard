@@ -1,0 +1,88 @@
+1/88 cpu        stagewise s= 1 main cap=16 admitted=256 committed= 70 blocked=186 runtime=0.495s
+2/88 cpu        stagewise s= 1 concurrency cap=4 admitted=256 committed= 73 blocked=183 runtime=0.499s
+3/88 cpu        stagewise s= 1 arrival cap=16 admitted=256 committed= 71 blocked=185 runtime=0.525s
+4/88 cpu        stagewise s= 1 concurrency cap=2 admitted=256 committed= 76 blocked=180 runtime=0.669s
+5/88 cpu        stagewise s= 1 instrumentation cap=16 admitted=256 committed= 73 blocked=183 runtime=0.576s
+6/88 disconnect reserve   s= 1 disconnect cap=16 admitted=224 committed=168 blocked= 56 runtime=0.613s
+7/88 default    precheck  s= 1 main cap=16 admitted= 96 committed= 96 blocked=  0 runtime=0.325s
+8/88 cpu        precheck  s= 1 arrival cap=16 admitted=105 committed= 67 blocked= 38 runtime=0.512s
+9/88 cpu        reserve   s= 1 arrival cap=16 admitted= 80 committed= 80 blocked=  0 runtime=0.512s
+10/88 cpu        stagewise s= 1 concurrency cap=1 admitted=256 committed= 80 blocked=176 runtime=0.542s
+11/88 battery    reserve   s= 1 main cap=16 admitted= 80 committed= 80 blocked=  0 runtime=0.393s
+12/88 default    reserve   s= 1 main cap=16 admitted= 96 committed= 96 blocked=  0 runtime=0.349s
+13/88 default    stagewise s= 1 main cap=16 admitted= 96 committed= 96 blocked=  0 runtime=0.324s
+14/88 cpu        precheck  s= 1 instrumentation cap=16 admitted=256 committed= 71 blocked=185 runtime=0.681s
+15/88 mixed      serial    s= 1 main cap=16 admitted= 96 committed= 96 blocked=  0 runtime=0.511s
+16/88 battery    serial    s= 1 main cap=16 admitted= 80 committed= 80 blocked=  0 runtime=0.309s
+17/88 cpu        serial    s= 1 arrival cap=16 admitted= 80 committed= 80 blocked=  0 runtime=0.511s
+18/88 cpu        reserve   s= 1 concurrency cap=1 admitted= 80 committed= 80 blocked=  0 runtime=0.290s
+19/88 cpu        precheck  s= 1 concurrency cap=8 admitted=170 committed= 73 blocked= 97 runtime=0.331s
+20/88 cpu        precheck  s= 1 concurrency cap=4 admitted=116 committed= 75 blocked= 41 runtime=0.300s
+21/88 cpu        reserve   s= 1 main cap=16 admitted= 80 committed= 80 blocked=  0 runtime=0.281s
+22/88 mixed      precheck  s= 1 main cap=16 admitted=192 committed= 90 blocked=102 runtime=0.405s
+23/88 mixed      stagewise s= 1 main cap=16 admitted=256 committed= 92 blocked=164 runtime=0.647s
+24/88 battery    stagewise s= 1 main cap=16 admitted=256 committed= 72 blocked=184 runtime=0.654s
+25/88 cpu        serial    s= 1 concurrency cap=1 admitted= 80 committed= 80 blocked=  0 runtime=0.293s
+26/88 cpu        precheck  s= 1 main cap=16 admitted=256 committed= 72 blocked=184 runtime=0.441s
+27/88 cpu        reserve   s= 1 concurrency cap=4 admitted= 80 committed= 80 blocked=  0 runtime=0.329s
+28/88 disconnect stagewise s= 1 disconnect cap=16 admitted=256 committed=162 blocked= 94 runtime=0.580s
+29/88 cpu        reserve   s= 1 concurrency cap=2 admitted= 80 committed= 80 blocked=  0 runtime=0.253s
+30/88 cpu        serial    s= 1 instrumentation cap=16 admitted= 80 committed= 80 blocked=  0 runtime=0.317s
+31/88 cpu        reserve   s= 1 instrumentation cap=16 admitted= 80 committed= 80 blocked=  0 runtime=0.409s
+32/88 cpu        precheck  s= 1 concurrency cap=2 admitted= 91 committed= 77 blocked= 14 runtime=0.260s
+33/88 default    serial    s= 1 main cap=16 admitted= 96 committed= 96 blocked=  0 runtime=0.456s
+34/88 cpu        serial    s= 1 concurrency cap=8 admitted= 80 committed= 80 blocked=  0 runtime=0.311s
+35/88 mixed      reserve   s= 1 main cap=16 admitted= 96 committed= 96 blocked=  0 runtime=0.385s
+36/88 cpu        serial    s= 1 concurrency cap=2 admitted= 80 committed= 80 blocked=  0 runtime=0.304s
+37/88 cpu        stagewise s= 1 concurrency cap=8 admitted=256 committed= 72 blocked=184 runtime=0.416s
+38/88 cpu        serial    s= 1 concurrency cap=4 admitted= 80 committed= 80 blocked=  0 runtime=0.288s
+39/88 battery    precheck  s= 1 main cap=16 admitted=256 committed= 75 blocked=181 runtime=0.460s
+40/88 cpu        serial    s= 1 main cap=16 admitted= 80 committed= 80 blocked=  0 runtime=0.344s
+41/88 cpu        reserve   s= 1 concurrency cap=8 admitted= 80 committed= 80 blocked=  0 runtime=0.263s
+42/88 disconnect serial    s= 1 disconnect cap=16 admitted=172 committed=168 blocked=  4 runtime=0.599s
+43/88 cpu        precheck  s= 1 concurrency cap=1 admitted= 80 committed= 80 blocked=  0 runtime=0.311s
+44/88 disconnect precheck  s= 1 disconnect cap=16 admitted=256 committed=163 blocked= 93 runtime=0.679s
+45/88 cpu        serial    s= 2 concurrency cap=4 admitted= 80 committed= 80 blocked=  0 runtime=0.313s
+46/88 default    serial    s= 2 main cap=16 admitted= 96 committed= 96 blocked=  0 runtime=0.375s
+47/88 cpu        stagewise s= 2 concurrency cap=2 admitted=256 committed= 78 blocked=178 runtime=0.500s
+48/88 cpu        stagewise s= 2 main cap=16 admitted=256 committed= 70 blocked=186 runtime=0.491s
+49/88 disconnect reserve   s= 2 disconnect cap=16 admitted=224 committed=168 blocked= 56 runtime=0.608s
+50/88 cpu        serial    s= 2 concurrency cap=2 admitted= 80 committed= 80 blocked=  0 runtime=0.307s
+51/88 battery    precheck  s= 2 main cap=16 admitted=256 committed= 75 blocked=181 runtime=0.442s
+52/88 disconnect stagewise s= 2 disconnect cap=16 admitted=256 committed=164 blocked= 92 runtime=0.546s
+53/88 battery    serial    s= 2 main cap=16 admitted= 80 committed= 80 blocked=  0 runtime=0.532s
+54/88 cpu        stagewise s= 2 concurrency cap=1 admitted=256 committed= 80 blocked=176 runtime=0.545s
+55/88 cpu        precheck  s= 2 arrival cap=16 admitted=112 committed= 73 blocked= 39 runtime=0.511s
+56/88 mixed      precheck  s= 2 main cap=16 admitted=192 committed= 90 blocked=102 runtime=0.390s
+57/88 cpu        precheck  s= 2 main cap=16 admitted=256 committed= 72 blocked=184 runtime=0.414s
+58/88 cpu        precheck  s= 2 concurrency cap=4 admitted=113 committed= 77 blocked= 36 runtime=0.322s
+59/88 cpu        serial    s= 2 arrival cap=16 admitted= 80 committed= 80 blocked=  0 runtime=0.511s
+60/88 cpu        reserve   s= 2 concurrency cap=2 admitted= 80 committed= 80 blocked=  0 runtime=0.291s
+61/88 cpu        reserve   s= 2 arrival cap=16 admitted= 80 committed= 80 blocked=  0 runtime=0.511s
+62/88 cpu        serial    s= 2 concurrency cap=1 admitted= 80 committed= 80 blocked=  0 runtime=0.289s
+63/88 cpu        reserve   s= 2 concurrency cap=4 admitted= 80 committed= 80 blocked=  0 runtime=0.298s
+64/88 default    reserve   s= 2 main cap=16 admitted= 96 committed= 96 blocked=  0 runtime=0.420s
+65/88 cpu        precheck  s= 2 concurrency cap=1 admitted= 80 committed= 80 blocked=  0 runtime=0.356s
+66/88 disconnect serial    s= 2 disconnect cap=16 admitted=172 committed=168 blocked=  4 runtime=0.749s
+67/88 cpu        stagewise s= 2 concurrency cap=4 admitted=256 committed= 78 blocked=178 runtime=0.519s
+68/88 default    stagewise s= 2 main cap=16 admitted= 96 committed= 96 blocked=  0 runtime=0.382s
+69/88 cpu        reserve   s= 2 main cap=16 admitted= 80 committed= 80 blocked=  0 runtime=0.309s
+70/88 cpu        serial    s= 2 instrumentation cap=16 admitted= 80 committed= 80 blocked=  0 runtime=0.333s
+71/88 default    precheck  s= 2 main cap=16 admitted= 96 committed= 96 blocked=  0 runtime=0.366s
+72/88 mixed      serial    s= 2 main cap=16 admitted= 96 committed= 96 blocked=  0 runtime=0.627s
+73/88 cpu        stagewise s= 2 instrumentation cap=16 admitted=256 committed= 66 blocked=190 runtime=0.897s
+74/88 mixed      stagewise s= 2 main cap=16 admitted=256 committed= 92 blocked=164 runtime=0.468s
+75/88 cpu        reserve   s= 2 concurrency cap=1 admitted= 80 committed= 80 blocked=  0 runtime=0.316s
+76/88 disconnect precheck  s= 2 disconnect cap=16 admitted=256 committed=161 blocked= 95 runtime=0.690s
+77/88 cpu        stagewise s= 2 concurrency cap=8 admitted=256 committed= 70 blocked=186 runtime=0.469s
+78/88 cpu        precheck  s= 2 concurrency cap=8 admitted=172 committed= 68 blocked=104 runtime=0.447s
+79/88 cpu        serial    s= 2 main cap=16 admitted= 80 committed= 80 blocked=  0 runtime=0.422s
+80/88 cpu        reserve   s= 2 concurrency cap=8 admitted= 80 committed= 80 blocked=  0 runtime=0.314s
+81/88 cpu        serial    s= 2 concurrency cap=8 admitted= 80 committed= 80 blocked=  0 runtime=0.304s
+82/88 battery    reserve   s= 2 main cap=16 admitted= 80 committed= 80 blocked=  0 runtime=0.328s
+83/88 mixed      reserve   s= 2 main cap=16 admitted= 96 committed= 96 blocked=  0 runtime=0.328s
+84/88 battery    stagewise s= 2 main cap=16 admitted=256 committed= 74 blocked=182 runtime=0.640s
+85/88 cpu        precheck  s= 2 instrumentation cap=16 admitted=256 committed= 71 blocked=185 runtime=0.539s
+86/88 cpu        stagewise s= 2 arrival cap=16 admitted=256 committed= 76 blocked=180 runtime=0.519s
+87/88 cpu        reserve   s= 2 instrumentation cap=16 admitted= 80 committed= 80 blocked=  0 runtime=0.438s
+88/88 cpu        precheck  s= 2 concurrency cap=2 admitted= 85 committed= 76 blocked=  9 runtime=0.377s

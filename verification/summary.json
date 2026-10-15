@@ -1,0 +1,41 @@
+{
+  "started_utc": "2026-10-11T15:08:11.420647+00:00",
+  "python": "3.13.5",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "analysis_skipped": false,
+  "checks": [
+    {
+      "name": "integrity",
+      "returncode": 0,
+      "log": "verification/integrity.txt"
+    },
+    {
+      "name": "prototype_unit_tests",
+      "returncode": 0,
+      "log": "verification/prototype_unit_tests.txt"
+    },
+    {
+      "name": "repository_unit_tests",
+      "returncode": 0,
+      "log": "verification/repository_unit_tests.txt"
+    },
+    {
+      "name": "retained_replay",
+      "returncode": 0,
+      "log": "verification/retained_replay.txt"
+    },
+    {
+      "name": "retained_analysis",
+      "returncode": 0,
+      "log": "verification/retained_analysis.txt"
+    }
+  ],
+  "scope": "Rechecks existing evidence. No new performance trials are run by this command.",
+  "status": "passed",
+  "ended_utc": "2026-10-11T15:08:30.939859+00:00",
+  "analysis_packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "checked_at_utc": "2026-10-11T16:20:24.367220+00:00",
+  "pdfs": [
+    {
+      "variant": "main",
+      "pages": 17,
+      "a4_all_pages": true,
+      "text_extracted_characters": 43943,
+      "embedded_fonts": true,
+      "type3_fonts": false,
+      "metadata_author": "",
+      "eight_numbered_equations": true,
+      "sha256": "84968f00d8067c06efe4f87e708fc13950a9fb62be195bdd784e5a9322ca585d",
+      "supplied_author_identifiers_in_extracted_text": [],
+      "embedded_file_count": 0,
+      "identifying_front_matter_absent": true,
+      "font_objects_checked": 27
+    },
+    {
+      "variant": "main_author",
+      "pages": 17,
+      "a4_all_pages": true,
+      "text_extracted_characters": 44462,
+      "embedded_fonts": true,
+      "type3_fonts": false,
+      "metadata_author": "",
+      "eight_numbered_equations": true,
+      "sha256": "2773e0ab951b42b203bd8b1973d0540b2659a15ee50861c347dfac24f5e94ef1",
+      "font_objects_checked": 27
+    }
+  ],
+  "scope": "Page/metadata/font checks; not full accessibility or absolute anonymity certification. Source repository contains identities."
+}

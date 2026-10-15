@@ -1,0 +1,27 @@
+# Local environments and generated work
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+build/
+runs/
+.DS_Store
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.bundle
+*.zip
+# LaTeX intermediates (the cached paper PDF and .bbl backup are retained)
+*.aux
+*.log
+*.blg
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+main.pdf
+main.bbl

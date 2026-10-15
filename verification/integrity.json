@@ -1,0 +1,48 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-11T15:08:12.746910+00:00",
+  "python": "3.13.5",
+  "checks": [
+    {
+      "name": "preserved_source_files",
+      "count": 41
+    },
+    {
+      "name": "original_execution_source_hashes",
+      "count": 5,
+      "model": {
+        "pages": 8,
+        "places": 72,
+        "transitions": 21,
+        "arcs": 141
+      }
+    },
+    {
+      "name": "retained_design",
+      "trials": 880,
+      "configurations": 44,
+      "submissions": 225280,
+      "commitments": 77929,
+      "gateway_events": 781126,
+      "suites": {
+        "main": 320,
+        "concurrency": 320,
+        "arrival": 80,
+        "instrumentation": 80,
+        "disconnect": 80
+      }
+    },
+    {
+      "name": "manuscript_structure",
+      "counts": {
+        "sections": 5,
+        "subsections": 14,
+        "tables": 6,
+        "numbered_equations": 8,
+        "algorithm_environments": 1
+      },
+      "citation_keys": 30
+    }
+  ],
+  "scope": "File identity and retained-design validation; not native CPN simulation or new performance evidence."
+}

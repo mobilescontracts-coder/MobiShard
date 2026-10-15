@@ -1,0 +1,10 @@
+{
+  "verified_trials": 880,
+  "submitted_requests": 225280,
+  "committed_requests": 77929,
+  "events_replayed": 781126,
+  "recorded_violations": 0,
+  "paired_input_signatures_verified": true,
+  "serial_owner_nonoverlap_verified": true,
+  "scope": "Independent accounting replay of prototype traces; not original-CPN reachability verification"
+}

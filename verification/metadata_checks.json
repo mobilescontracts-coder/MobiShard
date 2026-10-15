@@ -1,0 +1,14 @@
+{
+  "citation_yaml_parse": "passed",
+  "citation_authors": 4,
+  "workflow_yaml_parse": "passed",
+  "hosted_ci_executed": false,
+  "schema_validation": "CFF schema not run; YAML and required descriptive fields checked.",
+  "manuscript_visual_review": {
+    "pages": 12,
+    "rendered_with": "PyMuPDF",
+    "all_pages_inspected": true,
+    "overfull_boxes": 0,
+    "unresolved_references": 0
+  }
+}

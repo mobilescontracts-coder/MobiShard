@@ -1,0 +1,11 @@
+{
+  "revision_date": "2026-10-11T16:17:30.047588+00:00",
+  "base_commit": "a8232d88129b70ecbf4fd7d13cf6a7a12289cb69",
+  "base_tag": "v0.1.0",
+  "target_tag": "v0.2.0-ngise2026",
+  "changes": "Paper, format, vector architecture, docs, integrity and build tooling; scientific source and retained data unchanged.",
+  "publication_status": "Preparation only",
+  "external_actions": [],
+  "new_performance_experiments": 0,
+  "turnitin_tests": 0
+}

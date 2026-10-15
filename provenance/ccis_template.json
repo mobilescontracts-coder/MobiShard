@@ -1,0 +1,21 @@
+{
+  "checked_at_utc": "2026-10-11T16:17:30.047588+00:00",
+  "format": "Springer LLNCS class family used by CCIS",
+  "class_version": "2.26 (2025-02-25)",
+  "files": [
+    {
+      "path": "llncs.cls",
+      "sha256": "e9894c92191fcd195eef3120a36d2f75b52030eadcbdc3ce1463179746526e6a"
+    },
+    {
+      "path": "splncs04.bst",
+      "sha256": "f36c3a17e5304a692706359aafa9de709395a085e579eb47c027095aeaa35174"
+    }
+  ],
+  "retrieval": "Copied unchanged from the earlier supplied MobiShard_CCIS_LaTeX.zip. The current official download was attempted but could not be retrieved in this environment.",
+  "source_archive": "MobiShard_CCIS_LaTeX.zip",
+  "source_archive_sha256": "cec8649802a6f93f0efaccc079b5b2ab3483b6ca73e30ffdfc1a7c5a41a492fa",
+  "official_guidelines": "https://www.springernature.com/gp/authors/publish-a-book/step-by-step-conference-proceedings",
+  "instructions_pdf": "https://cms-resources.apps.public.k8s.springernature.io/springer-cms/rest/v1/content/27841326/data/v2",
+  "modification": "No class or bibliography-style modifications. No font files bundled."
+}

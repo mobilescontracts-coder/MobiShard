@@ -1,0 +1,12 @@
+{
+  "trials": 88,
+  "requests": 22528,
+  "commits": 7759,
+  "groups": 44,
+  "seed_repetitions": 2,
+  "source_sha256": "eb1f25ce5bbaf20babe3fb0c4913b59ca332fb8588e3e581b09db8e82e16cc7f",
+  "note": "New local experiment, not the paper dataset. Date comes from its environment record; numerical engine unchanged.",
+  "legacy_analysis_header_date": "2026-09-08",
+  "date": "2026-10-11",
+  "analysis_generated_utc": "2026-10-11T15:14:02.146666+00:00"
+}

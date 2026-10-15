@@ -1,0 +1,11 @@
+test_generated_output_allowed (test_repository_tools.RepositorySafetyTests.test_generated_output_allowed) ... ok
+test_no_existing_run_overwrite (test_repository_tools.RepositorySafetyTests.test_no_existing_run_overwrite) ... ok
+test_no_path_traversal (test_repository_tools.RepositorySafetyTests.test_no_path_traversal) ... ok
+test_optimized_python_rejected (test_repository_tools.RepositorySafetyTests.test_optimized_python_rejected) ... ok
+test_retained_results_protected (test_repository_tools.RepositorySafetyTests.test_retained_results_protected) ... ok
+test_symlink_output_parent_rejected (test_repository_tools.RepositorySafetyTests.test_symlink_output_parent_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 4.025s
+
+OK

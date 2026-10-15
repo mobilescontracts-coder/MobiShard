@@ -1,0 +1,13 @@
+\begin{tikzpicture}
+\begin{axis}[width=\columnwidth,height=5.6cm,ybar stacked,bar width=21pt,
+ symbolic x coords={Stagewise,Precheck,Reservation,Serial},xtick=data,
+ ymin=0,ymax=275,ytick={0,64,128,192,256},ylabel={Requests per trial},
+ tick label style={font=\footnotesize},label style={font=\footnotesize},
+ legend style={font=\scriptsize,at={(.5,1.03)},anchor=south,legend columns=3,draw=none},
+ axis x line*=bottom,axis y line*=left,enlarge x limits=.16]
+\addplot[fill=black!65,draw=black] table[x=policy,y=committed,col sep=comma]{results/paper/cpu_outcomes.csv};
+\addplot[pattern=north east lines,draw=black] table[x=policy,y=blocked,col sep=comma]{results/paper/cpu_outcomes.csv};
+\addplot[fill=white,draw=black] table[x=policy,y=denied,col sep=comma]{results/paper/cpu_outcomes.csv};
+\legend{Committed,Blocked,Denied}
+\end{axis}
+\end{tikzpicture}

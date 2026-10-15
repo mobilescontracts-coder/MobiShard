@@ -1,0 +1,5 @@
+policy,committed,blocked,denied
+Stagewise,72.4,183.6,0.0
+Precheck,72.35,183.65,0.0
+Reservation,80.0,0.0,176.0
+Serial,80.0,0.0,176.0
